@@ -1,3 +1,59 @@
+
+body{
+    background-color:#573824 ;
+    background-image: url(/images/bg-image.png);
+    background-size: cover;
+    
+
+}
+#page{
+    background-color:#F0E8C2;
+    border-radius: 24px;
+    width: 800px;
+    margin: 48px auto;
+    padding: 24px;
+    box-sizing: border-box;
+
+
+}
 img{
     border-radius: 16px;
+   
+    
 }
+#about{
+    padding: 0px 24px 24px 24px;
+    
+}
+#ingredientes{
+    padding: 0px 24px 24px 24px;
+    
+}
+#modoPreparo{
+    padding: 0px 24px 24px 24px;
+    
+}
+h1{
+    font-family: "Alice", serif;
+    font-size: 40px;
+    line-height: 140%;
+    font-weight: 400;
+    color: #291B1A;   
+    
+}
+h2{
+    font-family: "Alice", serif;
+    font-size: 24px;
+    line-height: 150%;
+    font-weight: 400;
+    color:#291B1A;
+}
+p{
+    font-family: "Alice", serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #573A37;
+
+}
+    
