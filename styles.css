@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color:#573824 ;
     background-image: url(/images/bg-image.png);
@@ -16,21 +19,12 @@ body{
 
 
 }
+main{
+    padding: 24px;
+}
 img{
     border-radius: 16px;
    
-    
-}
-#about{
-    padding: 0px 24px 24px 24px;
-    
-}
-#ingredientes{
-    padding: 0px 24px 24px 24px;
-    
-}
-#modoPreparo{
-    padding: 0px 24px 24px 24px;
     
 }
 h1{
@@ -38,7 +32,8 @@ h1{
     font-size: 40px;
     line-height: 140%;
     font-weight: 400;
-    color: #291B1A;   
+    color: #291B1A;
+    margin-bottom: 4px;  
     
 }
 h2{
@@ -47,6 +42,36 @@ h2{
     line-height: 150%;
     font-weight: 400;
     color:#291B1A;
+    margin-bottom: 4px;
+}
+#ingredientes{
+    font-family: "Alice", serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #573A37;
+    padding-bottom: 24px;
+       
+
+}
+.paragrafo1{
+    font-family: "Alice", serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #573A37;
+    margin-bottom: 12px;
+
+
+}
+.duracao{
+    font-family: "Alice", serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    color: #573A37;
+    margin-bottom: 24px
+
 }
 p{
     font-family: "Alice", serif;
@@ -55,5 +80,8 @@ p{
     font-weight: 400;
     color: #573A37;
 
+}
+ul{
+    padding: 0px 24px 0px;
 }
     
